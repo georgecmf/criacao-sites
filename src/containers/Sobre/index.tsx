@@ -19,9 +19,9 @@ const Sobre = () => (
 
     <Paragrafo $tipo="principal">
       Desenvolvedor front-end focado na criação de sites e aplicações modernas,
-      rápidas e responsivas. Trabalho com projetos do zero ao deploy, sempre
-      priorizando boa experiência no mobile, organização de código e visual
-      profissional.
+      rápidas e responsivas. Trabalho com projetos do zero ao deploy,
+      sempre priorizando boa experiência no mobile, organização de código
+      e visual profissional.
     </Paragrafo>
 
     <Titulo fontSize={16}>Ferramentas</Titulo>
