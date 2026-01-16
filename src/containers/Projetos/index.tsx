@@ -7,7 +7,7 @@ const projetos = [
     titulo: 'Mimos da Bru',
     descricao:
       'Site institucional para marca de roupas personalizadas, com foco em apresentação de produtos, identidade visual e contato com clientes.',
-    link: 'https://site-mimosbru-george.vercel.app',
+    link: 'https://bruna-nail-designer-georgecmfs-projects.vercel.app',
     github: 'https://github.com/georgecmf/site.mimosbru'
   },
   {
