@@ -1,36 +1,21 @@
 import Titulo from '../../components/Titulo'
 import Paragrafo from '../../components/Paragrafo'
-import { StackGrid, StackCard } from './styles'
-
-const stack = [
-  'React',
-  'TypeScript',
-  'Styled-components',
-  'HTML',
-  'CSS',
-  'Git',
-  'GitHub',
-  'Vercel'
-]
+import { Container } from './styles'
 
 const Sobre = () => (
-  <section>
-    <Titulo fontSize={16}>Sobre mim</Titulo>
+  <Container>
+    <Titulo fontSize={24}>Sobre o serviço</Titulo>
 
     <Paragrafo $tipo="principal">
-      Desenvolvedor front-end focado na criação de sites e aplicações modernas,
-      rápidas e responsivas. Trabalho com projetos do zero ao deploy,
-      sempre priorizando boa experiência no mobile, organização de código e visual profissional.
+      Crio sites profissionais para pequenos negócios e profissionais autônomos
+      que querem marcar presença online e atrair mais clientes.
     </Paragrafo>
 
-    <Titulo fontSize={16}>Ferramentas</Titulo>
-
-    <StackGrid>
-      {stack.map((item) => (
-        <StackCard key={item}>{item}</StackCard>
-      ))}
-    </StackGrid>
-  </section>
+    <Paragrafo $tipo="principal">
+      Desenvolvo sites modernos, rápidos e responsivos, pensados para funcionar
+      bem no celular e transmitir credibilidade desde o primeiro contato.
+    </Paragrafo>
+  </Container>
 )
 
 export default Sobre

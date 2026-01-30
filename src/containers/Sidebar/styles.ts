@@ -23,8 +23,7 @@ export const SidebarContainer = styled.div`
 export const Descricao = styled.p<Props>`
   margin-top: 16px;
   margin-bottom: 24px;
-  font-size: ${(props) =>
-    props.fontSize ? `${props.fontSize}px` : '18px'};
+  font-size: ${(props) => (props.fontSize ? `${props.fontSize}px` : '18px')};
   color: ${(props) =>
     props.$tipo === 'secundario'
       ? props.theme.corSecundaria
@@ -40,8 +39,7 @@ export const Descricao = styled.p<Props>`
   a:hover {
     text-decoration: underline;
   }
-`;
-
+`
 
 export const DescricaoContato = styled(Descricao)`
   font-size: 16px;

@@ -1,6 +1,6 @@
 import Projeto from '../../components/Projeto'
 import Titulo from '../../components/Titulo'
-import { Lista } from './styles'
+import { Container, Lista } from './styles'
 
 const projetos = [
   {
@@ -34,8 +34,8 @@ const projetos = [
 ]
 
 const Projetos = () => (
-  <section>
-    <Titulo fontSize={16}>Projetos</Titulo>
+  <Container>
+    <Titulo fontSize={24}>Projetos</Titulo>
     <Lista>
       {projetos.map((projeto) => (
         <li key={projeto.titulo}>
@@ -48,7 +48,7 @@ const Projetos = () => (
         </li>
       ))}
     </Lista>
-  </section>
+  </Container>
 )
 
 export default Projetos
