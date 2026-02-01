@@ -2,11 +2,13 @@
 import { DefaultTheme } from 'styled-components'
 
 const temaDark: DefaultTheme = {
-  corPrincipal: '#fff',
-  corSecundaria: '#aaa',
-  corDeFundo: '#000',
-  corDeFundoBotao: '#4d45beff',
-  corDaBorda: '#fff'
+  corPrincipal: '#F1F1F1',
+  corSecundaria: '#B5B5B5',
+
+  corDeFundo: '#0F0F12',
+  corDaBorda: '#26262B',
+
+  corDeFundoBotao: '#4d45be'
 }
 
 export default temaDark
