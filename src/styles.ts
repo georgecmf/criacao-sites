@@ -28,15 +28,18 @@ export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
 
+  padding: 0 16px; /* ESSENCIAL pra centralizar bem */
+
   display: flex;
   flex-direction: column;
+  align-items: center; /* centraliza conteúdo */
 
   main {
     width: 100%;
+    max-width: 900px; /* deixa mais alinhado e profissional */
   }
 
   @media (max-width: 768px) {
-    padding: 20px;
-    gap: 32px;
+    padding: 16px;
   }
 `
