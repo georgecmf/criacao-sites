@@ -3,19 +3,21 @@ import { Container, Titulo, Subtitulo, HeroButton, HeroTrust } from './styles'
 const Hero = () => (
   <Container>
     <Titulo>
-       Crio sites profissionais para você atrair clientes todos os dias
+      Crio sites profissionais para você atrair clientes todos os dias
     </Titulo>
 
     <Subtitulo>
-      Pronto rápido, sem mensalidade e você só paga se gostar.
+      Pronto em poucos dias, sem mensalidade e você só paga se gostar.
     </Subtitulo>
+
     <HeroButton href="https://wa.me/5551986028455" target="_blank">
-      Falar no WhatsApp
+      Quero meu site
     </HeroButton>
+
     <HeroTrust>
-      <li>✔ Atendimento direto via WhatsApp</li>
-      <li>✔ Orçamento sem compromisso</li>
-      <li>✔ Sites rápidos e responsivos</li>
+      <li>✔ Entrega rápida</li>
+      <li>✔ Sem mensalidade</li>
+      <li>✔ Funciona perfeitamente no celular</li>
     </HeroTrust>
   </Container>
 )

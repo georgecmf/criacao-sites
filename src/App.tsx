@@ -26,7 +26,6 @@ function App() {
     <ThemeProvider theme={estaUsandoTemaDark ? temaDark : temaLight}>
       <EstiloGlobal />
       <Container>
-        <Sidebar trocaTema={trocaTema} />
         <main>
           <Hero />
           <Beneficios/>

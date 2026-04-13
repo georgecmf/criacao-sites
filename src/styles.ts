@@ -24,25 +24,19 @@ const EstiloGlobal = createGlobalStyle`
 export default EstiloGlobal
 
 export const Container = styled.div`
-  max-width: 1024px;
+  max-width: 1100px;
   width: 100%;
   margin: 0 auto;
 
-  display: grid;
-  grid-template-columns: 128px 1fr;
-  column-gap: 56px;
+  display: flex;
+  flex-direction: column;
 
   main {
     width: 100%;
   }
 
- @media (max-width: 768px) {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-
-  aside {
-    width: 100%;
+  @media (max-width: 768px) {
+    padding: 20px;
+    gap: 32px;
   }
 `
