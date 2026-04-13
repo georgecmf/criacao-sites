@@ -4,9 +4,11 @@ import { ThemeProvider } from 'styled-components'
 import Projetos from './containers/Projetos'
 import Sidebar from './containers/Sidebar'
 import Hero from './containers/Hero'
+import Beneficios from './components/Beneficios'
 import Sobre from './containers/Sobre'
-import Tecnologias from './containers/Tecnologias'
 import Servicos from './containers/Servicos'
+import Depoimentos from './components/Depoimentos'
+import FAQ from './components/FAQ'
 import ComoFunciona from './containers/ComoFunciona'
 import CTA from './containers/CTA'
 import EstiloGlobal, { Container } from './styles'
@@ -27,11 +29,13 @@ function App() {
         <Sidebar trocaTema={trocaTema} />
         <main>
           <Hero />
+          <Beneficios/>
           <Sobre />
-          <Servicos />
-          <ComoFunciona />
-          <Tecnologias />
           <Projetos />
+          <Servicos />
+          <Depoimentos/>
+          <FAQ/>
+          <ComoFunciona />
           <CTA />
         </main>
       </Container>

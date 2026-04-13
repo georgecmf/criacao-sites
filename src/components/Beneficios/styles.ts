@@ -2,14 +2,18 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   margin-top: 40px;
-  margin-bottom: 40px;
-
   display: flex;
   flex-direction: column;
   gap: 16px;
+`
 
-  @media (max-width: 768px) {
-    align-items: center;
-    text-align: center;
+export const Item = styled.div`
+  h3 {
+    margin-bottom: 4px;
+  }
+
+  p {
+    color: #aaa;
+    font-size: 14px;
   }
 `

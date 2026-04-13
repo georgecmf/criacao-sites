@@ -9,6 +9,32 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
+
+  cursor: pointer;
+transition: transform 0.2s ease;
+
+&:hover {
+  transform: translateY(-5px);
+}
+
+  overflow: hidden; /* importante */
+
+  img {
+    width: 100%;
+    height: 180px; /* altura padrão */
+    object-fit: cover; /* mantém proporção e corta o excesso */
+  }
+
+  img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+&:hover img {
+  transform: scale(1.05);
+}
 `
 
 export const Actions = styled.div`
