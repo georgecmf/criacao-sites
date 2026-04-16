@@ -1,32 +1,33 @@
+import Titulo from '../../components/Titulo'
 import {
   Container,
-  Title,
   StepsGrid,
   StepCard,
-  StepNumber,
   StepTitle,
   StepText
 } from './styles'
 
 const ComoFunciona = () => (
   <Container>
-    <Title>Como funciona</Title>
+    <Titulo fontSize={24} align='center'>
+      Como funciona
+      </Titulo>
 
     <StepsGrid>
       <StepCard>
-        <StepNumber>1</StepNumber>
+        <span>📞</span>
         <StepTitle>Contato</StepTitle>
         <StepText>Você me chama no WhatsApp e explica o que precisa.</StepText>
       </StepCard>
 
       <StepCard>
-        <StepNumber>2</StepNumber>
+        <span>📋</span>
         <StepTitle>Planejamento</StepTitle>
         <StepText>Definimos o tipo de site ideal para o seu negócio.</StepText>
       </StepCard>
 
       <StepCard>
-        <StepNumber>3</StepNumber>
+         <span>💻</span>
         <StepTitle>Desenvolvimento</StepTitle>
         <StepText>
           Crio o site com foco em design, performance e responsividade.
@@ -34,7 +35,7 @@ const ComoFunciona = () => (
       </StepCard>
 
       <StepCard>
-        <StepNumber>4</StepNumber>
+        <span>🚀</span>
         <StepTitle>Entrega</StepTitle>
         <StepText>Site publicado e funcionando, pronto para divulgar.</StepText>
       </StepCard>

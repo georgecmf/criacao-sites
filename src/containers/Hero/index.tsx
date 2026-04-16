@@ -10,7 +10,7 @@ const Hero = () => (
       Pronto em poucos dias, sem mensalidade e você só paga se gostar.
     </Subtitulo>
 
-    <HeroButton href="https://wa.me/5551986028455" target="_blank">
+    <HeroButton href="https://wa.me/5551986028455?text=Olá,%20quero%20um%20site%20para%20atrair%20mais%20clientes" target="_blank">
       Quero meu site
     </HeroButton>
 

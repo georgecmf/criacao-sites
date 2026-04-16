@@ -34,7 +34,9 @@ const FAQ = () => {
 
   return (
     <Container>
-      <Titulo fontSize={24}>Dúvidas frequentes</Titulo>
+      <Titulo fontSize={24} align='center'>
+        Dúvidas frequentes
+        </Titulo>
 
       {faq.map((item, index) => (
         <Item key={index} onClick={() => toggle(index)}>

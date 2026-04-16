@@ -7,16 +7,6 @@ export const Container = styled.section`
   border-top: 1px solid ${(props) => props.theme.corDaBorda};
 `
 
-export const Titulo = styled.h2`
-  font-size: 28px;
-  margin-bottom: 12px;
-  color: ${(props) => props.theme.corPrincipal};
-
-  @media (max-width: 768px) {
-    font-size: 22px;
-  }
-`
-
 export const Texto = styled.p`
   font-size: 16px;
   max-width: 520px;

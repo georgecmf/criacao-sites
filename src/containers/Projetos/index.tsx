@@ -1,3 +1,4 @@
+import { TextAlignCenter } from 'lucide-react'
 import Projeto from '../../components/Projeto'
 import Titulo from '../../components/Titulo'
 import { Container, Lista } from './styles'
@@ -35,7 +36,10 @@ const projetos = [
 
 const Projetos = () => (
   <Container>
-    <Titulo fontSize={24}>Sites que já desenvolvi</Titulo>
+    <Titulo fontSize={24} align='center'>
+      Sites que já desenvolvi
+      </Titulo>
+    
     <Lista>
       {projetos.map((projeto) => (
         <li key={projeto.titulo}>

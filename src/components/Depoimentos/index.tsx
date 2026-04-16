@@ -25,7 +25,9 @@ const depoimentos = [
 
 const Depoimentos = () => (
   <Container>
-    <Titulo fontSize={24}>Quem fez, recomenda</Titulo>
+    <Titulo fontSize={24} align='center'>
+        Quem fez, recomenda
+        </Titulo>
 
     <Lista>
       {depoimentos.map((item, index) => (

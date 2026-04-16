@@ -12,12 +12,6 @@ export const Container = styled.section`
   }
 `
 
-export const Title = styled.h2`
-  font-size: 24px;
-  margin-bottom: 32px;
-  color: ${(props) => props.theme.corPrincipal};
-`
-
 export const StepsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -38,23 +32,38 @@ export const StepCard = styled.div`
 
   display: flex;
   flex-direction: column;
-  gap: 8px;
-`
 
-export const StepNumber = styled.span`
-  font-size: 14px;
-  font-weight: bold;
-  color: ${(props) => props.theme.corDeFundoBotao};
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  gap: 12px;
+  height: 100%;
+
+  transition: 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
 `
 
 export const StepTitle = styled.h3`
   font-size: 16px;
   font-weight: 600;
   color: ${(props) => props.theme.corPrincipal};
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  span {
+    flex-shrink: 0;
+  }
 `
 
 export const StepText = styled.p`
   font-size: 14px;
   color: ${(props) => props.theme.corSecundaria};
   line-height: 1.5;
+  margin: 0;
 `

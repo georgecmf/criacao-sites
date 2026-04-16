@@ -14,11 +14,6 @@ export const Container = styled.section`
   }
 `
 
-export const Title = styled.h2`
-  font-size: 24px;
-  margin-bottom: 24px;
-`
-
 export const ServiceHeader = styled.div`
   display: flex;
   align-items: center;

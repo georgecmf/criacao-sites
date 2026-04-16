@@ -1,6 +1,6 @@
+import Titulo from '../../components/Titulo'
 import {
   Container,
-  Title,
   ServicesGrid,
   ServiceCard,
   ServiceIcon,
@@ -15,7 +15,9 @@ import {
 export default function Servicos() {
   return (
     <Container id="servicos">
-      <Title>Qual tipo de site você precisa?</Title>
+      <Titulo fontSize={24} align='center'>
+        Qual tipo de site você precisa?
+        </Titulo>
 
       <ServicesGrid>
         <ServiceCard>
