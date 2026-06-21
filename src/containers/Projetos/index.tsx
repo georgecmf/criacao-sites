@@ -1,4 +1,3 @@
-import { TextAlignCenter } from 'lucide-react'
 import Projeto from '../../components/Projeto'
 import Titulo from '../../components/Titulo'
 import { Container, Lista } from './styles'
@@ -13,7 +12,8 @@ const projetos = [
   },
   {
     titulo: 'Nail Designer',
-    descricao: 'Site profissional para atrair clientes e facilitar agendamentos.',
+    descricao:
+      'Site profissional para atrair clientes e facilitar agendamentos.',
     imagem: '/imagens/bruna-nail.png',
     link: 'https://bruna-nail-designer-georgecmfs-projects.vercel.app',
     github: 'https://github.com/georgecmf/bruna-nail-designer'
@@ -31,15 +31,22 @@ const projetos = [
     imagem: '/imagens/disney+.png',
     link: 'https://clone-disneyplus-pied-xi.vercel.app',
     github: 'https://github.com/georgecmf/clone_disneyplus'
+  },
+  {
+    titulo: 'Barbearia',
+    descricao:
+      'Site profissional para atrair clientes e facilitar agendamentos.',
+    imagem: '/imagens/barbearia1.png',
+    link: 'https://barbearia-three-dun.vercel.app',
+    github: 'https://github.com/georgecmf/barbearia'
   }
 ]
 
 const Projetos = () => (
   <Container>
-    <Titulo fontSize={24} align='center'>
+    <Titulo fontSize={24} align="center">
       Sites que já desenvolvi
-      </Titulo>
-    
+    </Titulo>
     <Lista>
       {projetos.map((projeto) => (
         <li key={projeto.titulo}>
